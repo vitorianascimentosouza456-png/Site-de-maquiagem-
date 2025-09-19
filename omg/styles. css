@@ -1,1 +1,105 @@
+/* Estilo geral */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff0f6;
+  color: #333;
+  scroll-behavior: smooth;
+}
 
+/* Navbar */
+header {
+  background-color: #ffb6c1;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 22px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #333;
+}
+
+/* Seções */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  color: #e75480;
+  margin-bottom: 20px;
+}
+
+/* Imagens */
+.img-section {
+  margin-top: 20px;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #e75480;
+  border-radius: 8px;
+  outline: none;
+}
+
+button {
+  background-color: #e75480;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ff80ab;
+}
+
+/* Rodapé */
+footer {
+  background-color: #ffb6c1;
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+  margin-top: 30px;
+}
